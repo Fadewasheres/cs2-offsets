@@ -125,6 +125,16 @@
         ],
         "parent": null
       },
+      "InfoForResourceTypeCChoreoSceneFileList": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "InfoForResourceTypeCChoreoSceneResource": {
         "fields": {},
         "metadata": [

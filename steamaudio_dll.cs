@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-03-12 01:28:54.027324100 UTC
+// 2025-11-05 06:01:01.132204 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: steamaudio.dll
@@ -48,14 +48,13 @@ namespace CS2Dumper.Schemas {
             public const nint m_field = 0x0; // CUtlVector<float32>
         }
         // Parent: None
-        // Field count: 3
+        // Field count: 2
         //
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CSteamAudioBakedPathingData {
             public const nint m_nBands = 0x0; // int32
             public const nint m_probes = 0x8; // CSteamAudioProbeData
-            public const nint m_movables = 0x10; // CSteamAudioMovableBakedData<CSteamAudioBakedPathingData>
         }
         // Parent: None
         // Field count: 4
@@ -77,13 +76,12 @@ namespace CS2Dumper.Schemas {
             public const nint m_pProbeBatch = 0x0; // IPLProbeBatch
         }
         // Parent: None
-        // Field count: 2
+        // Field count: 1
         //
         // Metadata:
         // MGetKV3ClassDefaults
         public static class SteamAudioReverbCompressionSettings_t {
             public const nint m_bEnableCompression = 0x0; // bool
-            public const nint m_flQuality = 0x4; // float32
         }
         // Parent: None
         // Field count: 3
@@ -108,7 +106,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecReflectionRatio = 0x48; // CUtlVector<float32>
         }
         // Parent: None
-        // Field count: 11
+        // Field count: 17
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -119,11 +117,17 @@ namespace CS2Dumper.Schemas {
             public const nint m_reverbSettings = 0x68; // SteamAudioReverbSettings_t
             public const nint m_reverbClusteringSettings = 0x78; // SteamAudioReverbClusteringSettings_t
             public const nint m_reverbCompressionSettings = 0x84; // SteamAudioReverbCompressionSettings_t
-            public const nint m_clusteredProbes = 0x90; // CSteamAudioProbeData
-            public const nint m_vecClusterForProbe = 0x98; // CUtlVector<int16>
-            public const nint m_compressedData = 0xB0; // CSteamAudioCompressedReverb
-            public const nint m_compressedClusteredData = 0x110; // CSteamAudioCompressedReverb
-            public const nint m_movables = 0x170; // CSteamAudioMovableBakedData<CSteamAudioBakedReverbData>
+            public const nint m_clusteredProbes = 0x88; // CSteamAudioProbeData
+            public const nint m_vecClusterForProbe = 0x90; // CUtlVector<int16>
+            public const nint m_compressedData = 0xA8; // CSteamAudioCompressedReverb
+            public const nint m_compressedClusteredData = 0x108; // CSteamAudioCompressedReverb
+            public const nint m_vecMovableReverbs = 0x168; // CUtlVector<CSteamAudioBakedReverbData>
+            public const nint m_vecMovableReverbInitialTransforms = 0x180; // CUtlVector<matrix3x4_t>
+            public const nint m_vecMovableReverbAABBs = 0x198; // CUtlVector<AABB_t>
+            public const nint m_vecMovableReverbKeys = 0x1B0; // CUtlVector<CUtlString>
+            public const nint m_vecMovableReverbKeyTokens = 0x1C8; // CUtlVector<CUtlStringToken>
+            public const nint m_vecMovableReverbTransforms = 0x1E0; // CUtlVector<matrix3x4_t>
+            public const nint m_vecMovableReverbOBBs = 0x1F8; // CUtlVector<OBB_t>
         }
         // Parent: None
         // Field count: 4
@@ -148,7 +152,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nReflectionBounces = 0x8; // int32
         }
         // Parent: None
-        // Field count: 7
+        // Field count: 6
         //
         // Metadata:
         // MGetKV3ClassDefaults
@@ -159,7 +163,6 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecSize = 0x38; // CUtlVector<float32>
             public const nint m_vecOutsideField = 0x50; // CUtlVector<CSteamAudioAmbisonicsField>
             public const nint m_vecInsideSmallSizeField = 0x68; // CUtlVector<CSteamAudioAmbisonicsField>
-            public const nint m_movables = 0x80; // CSteamAudioMovableBakedData<CSteamAudioBakedDimensionsData>
         }
         // Parent: None
         // Field count: 7
