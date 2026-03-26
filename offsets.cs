@@ -1,52 +1,52 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-11-05 08:27:32.294171800 UTC
+// 2026-03-26 17:03:02.734206500 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
     public static class ClientDll {
-        public const nint dwCSGOInput = 0x1E37FC0;
-        public const nint dwEntityList = 0x1D0FBE8;
-        public const nint dwGameEntitySystem = 0x1FB4820;
-        public const nint dwGameEntitySystem_highestEntityIndex = 0x20F0;
-        public const nint dwGameRules = 0x1E2D290;
-        public const nint dwGlobalVars = 0x1BE0178;
-        public const nint dwGlowManager = 0x1E2A128;
-        public const nint dwLocalPlayerController = 0x1E19AD0;
-        public const nint dwLocalPlayerPawn = 0x1BEAEB8;
-        public const nint dwPlantedC4 = 0x1E33590;
-        public const nint dwPrediction = 0x1BEADD0;
-        public const nint dwSensitivity = 0x1E2AB88;
-        public const nint dwSensitivity_sensitivity = 0x50;
-        public const nint dwViewAngles = 0x1E38670;
-        public const nint dwViewMatrix = 0x1E2E0F0;
-        public const nint dwViewRender = 0x1E2EC68;
-        public const nint dwWeaponC4 = 0x1DCAEB0;
+        public const nint dwCSGOInput = 0x231B2E0;
+        public const nint dwEntityList = 0x24B0258;
+        public const nint dwGameEntitySystem = 0x24B0258;
+        public const nint dwGameEntitySystem_highestEntityIndex = 0x20A0;
+        public const nint dwGameRules = 0x230EED0;
+        public const nint dwGlobalVars = 0x205F540;
+        public const nint dwGlowManager = 0x230BCD8;
+        public const nint dwLocalPlayerController = 0x22F5028;
+        public const nint dwLocalPlayerPawn = 0x206A9E0;
+        public const nint dwPlantedC4 = 0x2318A60;
+        public const nint dwPrediction = 0x206A8F0;
+        public const nint dwSensitivity = 0x230C7E8;
+        public const nint dwSensitivity_sensitivity = 0x58;
+        public const nint dwViewAngles = 0x231B968;
+        public const nint dwViewMatrix = 0x2310F10;
+        public const nint dwViewRender = 0x2311328;
+        public const nint dwWeaponC4 = 0x229A2B0;
     }
     // Module: engine2.dll
     public static class Engine2Dll {
-        public const nint dwBuildNumber = 0x5F03E4;
-        public const nint dwNetworkGameClient = 0x8EA518;
-        public const nint dwNetworkGameClient_clientTickCount = 0x390;
-        public const nint dwNetworkGameClient_deltaTick = 0x23C;
-        public const nint dwNetworkGameClient_isBackgroundMap = 0x2C1467;
-        public const nint dwNetworkGameClient_localPlayer = 0xE8;
-        public const nint dwNetworkGameClient_maxClients = 0x230;
-        public const nint dwNetworkGameClient_serverTickCount = 0x23C;
-        public const nint dwNetworkGameClient_signOnState = 0x220;
-        public const nint dwWindowHeight = 0x8EE81C;
-        public const nint dwWindowWidth = 0x8EE818;
+        public const nint dwBuildNumber = 0x60E514;
+        public const nint dwNetworkGameClient = 0x9095D0;
+        public const nint dwNetworkGameClient_clientTickCount = 0x378;
+        public const nint dwNetworkGameClient_deltaTick = 0x24C;
+        public const nint dwNetworkGameClient_isBackgroundMap = 0x2C141F;
+        public const nint dwNetworkGameClient_localPlayer = 0xF8;
+        public const nint dwNetworkGameClient_maxClients = 0x240;
+        public const nint dwNetworkGameClient_serverTickCount = 0x24C;
+        public const nint dwNetworkGameClient_signOnState = 0x230;
+        public const nint dwWindowHeight = 0x90D99C;
+        public const nint dwWindowWidth = 0x90D998;
     }
     // Module: inputsystem.dll
     public static class InputsystemDll {
-        public const nint dwInputSystem = 0x45A20;
+        public const nint dwInputSystem = 0x45AD0;
     }
     // Module: matchmaking.dll
     public static class MatchmakingDll {
-        public const nint dwGameTypes = 0x1B5EE0;
+        public const nint dwGameTypes = 0x1B8000;
     }
     // Module: soundsystem.dll
     public static class SoundsystemDll {
-        public const nint dwSoundSystem = 0x3EAE50;
+        public const nint dwSoundSystem = 0x4F3470;
         public const nint dwSoundSystem_engineViewData = 0x7C;
     }
 }
